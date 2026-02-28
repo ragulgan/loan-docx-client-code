@@ -1,0 +1,28 @@
+
+{
+  "name": "loandocx-platform",
+  "version": "1.0.0",
+  "description": "Production Fintech Workflow Platform",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "tsx backend/server.ts"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.0",
+    "recharts": "^2.15.0",
+    "@google/genai": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}
